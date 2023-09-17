@@ -37,7 +37,7 @@ export default function RootLayout({
               }}
             >
               {LINKS.map(({ text, href, icon: Icon }) => (
-                <Button sx={{ color: "inherit" }} href={href}>
+                <Button key={text} sx={{ color: "inherit" }} href={href}>
                   <Icon />
                   <Typography>{text}</Typography>
                 </Button>

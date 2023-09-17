@@ -9,9 +9,9 @@ import ContactSection from "@/components/Sections/ContactSection";
 
 export default function HomePage() {
   const SECTIONS = [
-    { id: "intro", element: <IntroSection />, ref: React.useRef(null) },
-    { id: "about", element: <AboutSection />, ref: React.useRef(null) },
-    { id: "contact", element: <ContactSection />, ref: React.useRef(null) }
+    { id: "Intro", element: <IntroSection />, ref: React.useRef(null) },
+    { id: "About", element: <AboutSection />, ref: React.useRef(null) },
+    { id: "Contact", element: <ContactSection />, ref: React.useRef(null) }
   ];
 
   return (
